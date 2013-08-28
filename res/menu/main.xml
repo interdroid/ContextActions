@@ -1,0 +1,18 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/action_add_sensor"
+        android:icon="@drawable/ic_action_new_sensor"
+        android:showAsAction="ifRoom"
+        android:title="@string/action_add"
+        android:visible="true"/>
+    
+    <item
+        android:id="@+id/action_add_constant"
+        android:icon="@drawable/ic_action_constant"
+        android:showAsAction="ifRoom"
+        android:title="@string/action_add"
+        android:visible="true"/>
+    
+
+</menu>

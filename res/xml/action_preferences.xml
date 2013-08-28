@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <Preference
+        android:enabled="true"
+        android:key="expression" />
+
+    <ListPreference
+        android:key="true"
+        android:summary="&lt;nothing>"
+        android:title="When true" />
+    <ListPreference
+        android:key="false"
+        android:summary="&lt;nothing>"
+        android:title="When false" />
+    <ListPreference
+        android:key="undefined"
+        android:summary="&lt;nothing>"
+        android:title="When undefined" />
+
+</PreferenceScreen>

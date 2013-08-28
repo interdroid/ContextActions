@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="interdroid.swan.contextactions"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="17" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="interdroid.swan.contextactions.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="interdroid.swan.contextactions.ActionsActivity"
+            android:label="@string/title_activity_actions" >
+        </activity>
+        <activity
+            android:name="interdroid.swan.contextactions.ControlActivity"
+            android:label="@string/title_activity_control" >
+        </activity>
+
+        <service
+            android:name="interdroid.swan.contextactions.SoundService"
+            android:enabled="true"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="interdroid.swan.contextactions.ACTION" />
+            </intent-filter>
+
+            <meta-data
+                android:name="description"
+                android:value="play sound" />
+        </service>
+        <service
+            android:name="interdroid.swan.contextactions.TTSService"
+            android:enabled="true"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="interdroid.swan.contextactions.ACTION" />
+            </intent-filter>
+
+            <meta-data
+                android:name="description"
+                android:value="speak text" />
+        </service>
+        <service
+            android:name="interdroid.swan.contextactions.RingerService"
+            android:enabled="true"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="interdroid.swan.contextactions.ACTION" />
+            </intent-filter>
+
+            <meta-data
+                android:name="description"
+                android:value="ringer to max volume" />
+        </service>
+        <service
+            android:name="interdroid.swan.contextactions.RingerMuteService"
+            android:enabled="true"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="interdroid.swan.contextactions.ACTION" />
+            </intent-filter>
+
+            <meta-data
+                android:name="description"
+                android:value="ringer to mute" />
+        </service>
+    </application>
+
+</manifest>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Context Actions</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_add">Add</string>
+    <string name="dialog_add_sensor_title">Choose Sensor</string>
+    <string name="dialog_add_constant_title">Enter Constant</string>
+    <string name="dialog_edit_name_title">Enter New Name</string>
+    <string name="action_and">AND</string>
+    <string name="action_or">OR</string>
+    <string name="action_negate">NOT</string>
+    <string name="action_delete">delete</string>
+    <string name="action_plus">+</string>
+    <string name="action_minus">-</string>
+    <string name="action_multiply">*</string>
+    <string name="action_modulo">modulo</string>
+    <string name="action_divide">/</string>
+    <string name="action_rename">rename</string>
+    <string name="action_edit">edit</string>
+    <string name="menu_math">math</string>
+    <string name="menu_comparison">comp</string>
+    <string name="action_greater_than">&gt;</string>
+    <string name="action_greater_than_equals">&gt;=</string>
+    <string name="action_equals">EQUALS</string>
+    <string name="action_not_equals">NOT EQUALS</string>
+    <string name="action_less_than">&lt;</string>
+    <string name="action_less_than_equals">&lt;=</string>
+    <string name="action_contains">contains</string>
+    <string name="action_regex">regex</string>
+    <string name="action_trigger">trigger</string>
+    <string name="action_autodelete">auto delete</string>
+    <string name="toast_cannot_edit">This expression is too complex to edit.</string>
+    <string name="title_activity_actions">ActionsActivity</string>
+    <string name="title_activity_control">ControlActivity</string>
+
+</resources>

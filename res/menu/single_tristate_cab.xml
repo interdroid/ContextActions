@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/action_trigger"
+        android:icon="@drawable/ic_action_trigger"
+        android:showAsAction="always"
+        android:title="@string/action_trigger"
+        android:visible="true"/>
+    <item
+        android:id="@+id/action_negate"
+        android:showAsAction="ifRoom|withText"
+        android:title="@string/action_negate"
+        android:visible="true"/>
+
+</menu>
